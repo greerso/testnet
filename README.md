@@ -36,7 +36,7 @@ All clients supporting the ProgPoW v0.9.2 algorithm (EIP-1057) are able to sync 
 
 ##### Ethereum ProgPoW (Recommended)
 
-Install Golang 1.10 & required compile tools and clone the repo, and compile Ethereum ProgPoW node client.
+Install Golang 1.10 & required compile tools and clone the repo, compile Ethereum ProgPoW node client.
 
 ```
 sudo apt-get install -y golang-1.10 build-essential
@@ -49,7 +49,7 @@ make geth
 
 ##### Parity ProgPoW (Recommended)
 
-Install Rust & required compile tools and clone the repo, and compile Parity ProgPoW node client.
+Install Rust & required compile tools and clone the repo, compile Parity ProgPoW node client.
 
 ```
 sudo apt-get install -y build-essential gcc g++ libudev-dev pkg-config file make cmake
