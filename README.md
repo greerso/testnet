@@ -1,4 +1,4 @@
-# testnet
+# Gangnam testnet
 
 [![Join the chat at https://gitter.im/ifdefelse/community](https://badges.gitter.im/ifdefelse/community.svg)](https://gitter.im/ifdefelse/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -32,7 +32,7 @@ Please see [bootnodes.txt](bootnodes.txt) to add peers.
 
 ### Connecting the clients
 
-All clients supporting the ProgPoW v0.9.2 algorithm (EIP-1057) are able to sync with Gangnam Testnet.
+All clients supporting the ProgPoW v0.9.2 algorithm (EIP-1057) can sync with Gangnam Testnet.
 
 ##### Ethereum ProgPoW (Recommended)
 
