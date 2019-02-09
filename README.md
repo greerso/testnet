@@ -4,7 +4,7 @@
 
 The `--gangnam` testnet configurations
 
-### Meta data: Gangnam
+## Meta data: Gangnam
 
 - Name: Gangnam
 - Machine-readable name: `gangnam`
@@ -30,7 +30,7 @@ Please see [gangnam-parity.json](gangnam-parity.json) for a genesis file compati
 
 Please see [bootnodes.txt](bootnodes.txt) to add peers.
 
-### Connecting the clients
+## Connecting the clients
 
 All clients supporting the ProgPoW v0.9.2 algorithm (EIP-1057) can sync with Gangnam Testnet.
 
