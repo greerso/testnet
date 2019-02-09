@@ -34,7 +34,7 @@ Please see [bootnodes.txt](bootnodes.txt) to add peers.
 
 All clients supporting the ProgPoW v0.9.2 algorithm (EIP-1057) can sync with Gangnam Testnet.
 
-##### Ethereum ProgPoW (Recommended)
+#### Ethereum ProgPoW (Recommended)
 
 Install Golang 1.10 & required compile tools and clone the repo, compile Ethereum ProgPoW node client.
 
@@ -47,7 +47,7 @@ make geth
 ./build/bin/geth --gangnam
 ```
 
-##### Parity ProgPoW (Recommended)
+#### Parity ProgPoW (Recommended)
 
 Install Rust & required compile tools and clone the repo, compile Parity ProgPoW node client.
 
@@ -60,7 +60,7 @@ cargo build --release --features final
 ./target/release/parity --chain=gangnam
 ```
 
-##### Go-Ethereum (work in progress)
+#### Go-Ethereum (work in progress)
 
 ProgPoW support in Go-ethereum is still work in progress, but syncing the chain and all other Go-Ethereum features are available: [go-ethereum/#17731](https://github.com/ethereum/go-ethereum/pull/17731)
 
@@ -79,7 +79,7 @@ make geth
 "enode://4d7719eaa978e3d1ebc953fcfac83adf18f2642782de383d4a4c61f6f2a4d1492ae68c456d9bc7f41089f68cada1a586534c91941232760ef56b2ce33a3094d3@35.204.138.0:30303",
 ```
 
-##### Parity-Ethereum (work in progress)
+#### Parity-Ethereum (work in progress)
 
 ProgPoW support in Parity-Ethereum is still work in progress, but syncing the chain and all other Parity-Ethereum features are available: [parity-ethereum/#9762](https://github.com/paritytech/parity-ethereum/pull/9762)
 
@@ -91,3 +91,9 @@ cd parity-ethereum
 cargo build --release --features final
 ./target/release/parity --chain="your-location/gangnam-parity.json"
 ```
+
+## Contribute
+
+Run a node, [join our Gitter Community](https://gitter.im/ifdefelse/community), and report bugs!
+
+Read more about ProgPoW algorithm on [official EIP spec](https://eips.ethereum.org/EIPS/eip-1057), and download [Progminer mining software](https://github.com/gangnamtestnet/progminer/releases) for mining on Gangnam Testnet (Mining Pool or running node with RPC connection opened required for mining).
