@@ -54,6 +54,7 @@ Install Rust & required compile tools and clone the repo, compile Parity ProgPoW
 ```
 sudo apt-get install -y build-essential gcc g++ libudev-dev pkg-config file make cmake
 curl https://sh.rustup.rs -sSf | sh -s -- -y
+source $HOME/.cargo/env
 git clone https://github.com/ethereumprogpow/parity-progpow
 cd parity-progpow
 cargo build --release --features final
@@ -86,6 +87,7 @@ ProgPoW support in Parity-Ethereum is still work in progress, but syncing the ch
 ```
 sudo apt-get install -y build-essential gcc g++ libudev-dev pkg-config file make cmake
 curl https://sh.rustup.rs -sSf | sh -s -- -y
+source $HOME/.cargo/env
 git clone -b andre/progpow https://github.com/paritytech/parity-ethereum
 cd parity-ethereum
 cargo build --release --features final
